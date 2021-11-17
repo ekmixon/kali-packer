@@ -18,5 +18,5 @@
 
 # This playbook may cause Python 2 to be reinstalled, so it must go
 # last
-- name: Import assessor tools playbook
-  ansible.builtin.import_playbook: assessor_tools.yml
+# - name: Import assessor tools playbook
+#   ansible.builtin.import_playbook: assessor_tools.yml
